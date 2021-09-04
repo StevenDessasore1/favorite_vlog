@@ -1,1 +1,6 @@
 <h1>This is the Model's index page.</h1>
+<% if logged_in? %>
+<h2> Hello, <%= current.username %> <h2>
+<% end %>
+
+

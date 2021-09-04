@@ -1,4 +1,4 @@
-class CreateFavoriteVloggers < ActiveRecord::Migration
+class CreateFavoriteVloggers < ActiveRecord::Migration[5.2]
   def change
     create_table :favorite_vloggers do |t|
       t.string  :name
